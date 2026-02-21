@@ -7,7 +7,7 @@ class Tgcli < Formula
   sha256 "1d942475342d2a8f7870881ca760de4a443918231926f9e76171b6dd6f5a2571"
   license "MIT"
 
-  depends_on "python@3.12"
+  depends_on "python3"
 
   resource "annotated-doc" do
     url "https://files.pythonhosted.org/packages/57/ba/046ceea27344560984e26a590f90bc7f4a75b06701f653222458922b558c/annotated_doc-0.0.4.tar.gz"
@@ -95,7 +95,7 @@ class Tgcli < Formula
   end
 
   def install
-    virtualenv_create(libexec, "python3.12")
+    virtualenv_create(libexec, "python3")
     virtualenv_install_with_resources
   end
 
