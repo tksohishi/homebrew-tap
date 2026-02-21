@@ -1,11 +1,17 @@
 # homebrew-tap
 
-Homebrew tap for [tgcli](https://github.com/tksohishi/tgcli), a CLI tool to read Telegram messages from the terminal.
+Homebrew tap for [@tksohishi](https://github.com/tksohishi) packages.
+
+## Formulae
+
+| Formula | Description |
+|---------|-------------|
+| [tgcli](Formula/tgcli.rb) | Telegram for your terminal and your AI agents |
 
 ## Install
 
 ```sh
-brew install tksohishi/tap/tgcli
+brew install tksohishi/tap/<formula>
 ```
 
 ## Note
