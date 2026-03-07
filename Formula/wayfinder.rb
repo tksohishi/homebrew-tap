@@ -2,15 +2,15 @@ class Wayfinder < Formula
   desc "Travel search for your terminal and your AI agents"
   homepage "https://github.com/tksohishi/wayfinder"
   license "MIT"
-  version "0.4.0"
+  version "0.5.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tksohishi/wayfinder/releases/download/v0.4.0/wayfinder-v0.4.0-darwin-arm64.tar.gz"
-      sha256 "3750499c2c9f3dbdd1f8f434560a27c2a8dc7bf13c39d4457761f6499e37aa0d"
+      url "https://github.com/tksohishi/wayfinder/releases/download/v0.5.0/wayfinder-v0.5.0-darwin-arm64.tar.gz"
+      sha256 "8ca5f1b23a5458a3a229e7563ce960094aa58063ff0eaf9c584f31719481478c"
     else
-      url "https://github.com/tksohishi/wayfinder/releases/download/v0.4.0/wayfinder-v0.4.0-darwin-x64.tar.gz"
-      sha256 "81ce606b6d01f2ce98a2d8a0585c920016aee594e4273482f5667afcae209ec8"
+      url "https://github.com/tksohishi/wayfinder/releases/download/v0.5.0/wayfinder-v0.5.0-darwin-x64.tar.gz"
+      sha256 "bf840a7a60cb72b1ceaf30426be726fa1694f1632fc39a9b634096a003803dd0"
     end
   end
 
