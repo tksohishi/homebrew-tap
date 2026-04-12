@@ -1,25 +1,25 @@
 class Seats < Formula
   desc "CLI for searching seats.aero award flight availability"
   homepage "https://github.com/tksohishi/seats"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/tksohishi/seats/releases/download/v#{version}/seats-darwin-arm64"
-      sha256 "8a43344b546f2bbb31f8b582acb584c610e060a27176d8107bb610320b16ce80"
+      sha256 "5a84d0d109ca40f14af2bda1b7bedcc458bdd8206e28364a422ddf7236cb0ef0"
     end
 
     on_intel do
       url "https://github.com/tksohishi/seats/releases/download/v#{version}/seats-darwin-x64"
-      sha256 "4d7ac26e69bef1852e005f4c8daffe79f41a943f1d24d4f06a8d7e7b7da2c578"
+      sha256 "5f3c7f1f628a2300ddf2402b1866f716659b4e034f7934a28ed3a64db840af56"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/tksohishi/seats/releases/download/v#{version}/seats-linux-x64"
-      sha256 "fba02694c89e465107556aa74eb07db27c4794f6dd1d6211ba4384310c08d0ce"
+      sha256 "d3e80c7fcad19016bcc6df855e9755598cabe1dbb49c701cfb021435fec314f4"
     end
   end
 
