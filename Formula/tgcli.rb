@@ -3,8 +3,8 @@ class Tgcli < Formula
 
   desc "Telegram for your terminal and your AI agents"
   homepage "https://github.com/tksohishi/tgcli"
-  url "https://files.pythonhosted.org/packages/e6/45/01f67db6f3346ca32878d9db02c4533254c203c84051bb5336ecbd6b7542/pytgcli-0.9.1.tar.gz"
-  sha256 "dd897b426d9cfae7b9a8b8987be210dda7a41ceafe933ac9f03af22e12e13bb4"
+  url "https://files.pythonhosted.org/packages/39/6e/79b737006f45133b9d321a9ced4e19e8fc211911d66d783bef9ae0a96017/pytgcli-0.10.0.tar.gz"
+  sha256 "cc8200aca7520a04e497027af6532d8fa0caa462e88f3a734df9d8ff01e06089"
   license "MIT"
 
   depends_on "python@3.14"
